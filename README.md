@@ -1,6 +1,7 @@
 "# ada-2020-project-milestone-p3-p3_ada-boi"
 
-**Title: Detecting political division on Twitter**
+**Title: Influence of housing conditions on life and health**
+
 **Abstract**
 While the original paper explores the effects of a treatment (Piso Firme) on children health and household happiness, it fails to take into account the default conditions: how is the health of certain demographics impacted by their living and housing conditions. We propose to study the effect of housing on certain indicators, such as happiness (présent dans le dataset?), health and even scholarly outcome. To do so, we plan on taking the National Survey of America's Families (NSAF), which recenses households throughout the USA, along with the demographics/health parameters of the inhabitants.
 
