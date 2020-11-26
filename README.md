@@ -11,7 +11,7 @@ While the original paper explores the effects of a treatment (Piso Firme) on chi
 3. In what ways do living conditions affect children scholarship (if they do) ? Which age group is most impacted ?
 
 **Proposed dataset**
-1. Urban Institute, and Child Trends. National Survey of America’s Families (NSAF), 2002. Inter-university Consortium for Political and Social Research [distributor], 2007-10-03. https://doi.org/10.3886/ICPSR04582.v1
+1. Urban Institute, and Child Trends. National Survey of America’s Families (NSAF), 2002. Inter-university Consortium for Political and Social Research [distributor], 2007-10-03. https://doi.org/10.3886/ICPSR04582.v1 \
 We chose the 2002 census as it represents a similar timeframe to the Piso Firme project, which probably helps to smoothe out potential period-related discrepencies (for example, maybe the 2008 crisis had an effect on the relationships we want to determine, and taking a post-2008 census would be misleading).
 We will restrict our study to the Focal Child Data and the Household Data.
 2. Census data and health questionnaire from the original paper. *really?*
