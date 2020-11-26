@@ -12,26 +12,26 @@ From this dataset we can extract a number of interesting variables for housing c
 2. Is there a correlation between precarious housing and health (both physical and mental) status?
 3. In what ways do living conditions affect children scholarship (if they do) ? Which age group is most impacted ?
 
-**Proposed dataset**
-1. Urban Institute, and Child Trends. National Survey of America’s Families (NSAF), 2002. Inter-university Consortium for Political and Social Research [distributor], 2007-10-03. https://doi.org/10.3886/ICPSR04582.v1 \
+**Proposed dataset**\
+Urban Institute, and Child Trends. National Survey of America’s Families (NSAF), 2002. Inter-university Consortium for Political and Social Research [distributor], 2007-10-03. https://doi.org/10.3886/ICPSR04582.v1 \
 We chose the 2002 census as it represents a similar timeframe to the Piso Firme project, which probably helps to smoothe out potential period-related discrepencies (for example, maybe the 2008 crisis had an effect on the relationships we want to determine, and taking a post-2008 census would be misleading).
 We will restrict our study to the Focal Child Data and the Household Data.
-2. Census data and health questionnaire from the original paper. *really?*
 
 **Methods**\
 We will divide the children in three age groups in order to study which group is influenced the most for different parameters. Each person of interest will be linked to his/her household.
 The idea is first to do some visualization of the data for the variables of interest. Then, we will perform linear regression in order to study in more details the impact of different housing variables on schooling, health and happiness.
+We are also planning on using a propensity score matching (PSM) in order to evaluate certain treatment effects on subpopulations.
 
-**Proposed timeline**
-*on doit mettre des dates?*
+**Proposed timeline**\
 - Data preprocessing
 - Data visualization
+- PSM
 - Regression models
 - Results analysis & presentation
 
 **Organization within team**  \
-Estelle : 
-Alan : 
+Estelle : population matching, health/happiness data \
+Alan : propensity score establishment, education data \
 We will also regularly review each other's work and add ameliorations if needed.
 
 **Questions for TAs**
