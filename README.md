@@ -16,18 +16,18 @@ We chose the 2002 census as it represents a similar timeframe to the Piso Firme 
 We will restrict our study to the Focal Child Data and the Household Data.
 2. Census data and health questionnaire from the original paper. *really?*
 
-**Methods**
+**Methods**\
 We will divide the children in three age groups in order to study which group is influenced the most for different parameters. Each child will be linked to his/her household.
 The idea is first to do some visualization of the data for the variables of interest. Then, we will perform linear regression in order to study in more details the impact of different housing variables on schooling, health and happiness.
 
-**Proposed timeline**
+**Proposed timeline**\
 *on doit mettre des dates?*
 Data preprocessing
 Data visualization
 Regression models
 Results analysis & presentation
 
-**Organization within team**  
+**Organization within team**  \
 Estelle :
 Alan :
 We will also regularly review each other's work and add ameliorations if needed.
