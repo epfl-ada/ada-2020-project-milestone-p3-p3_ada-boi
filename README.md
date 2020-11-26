@@ -22,7 +22,7 @@ We will divide the children in three age groups in order to study which group is
 The idea is first to do some visualization of the data for the variables of interest. Then, we will perform linear regression in order to study in more details the impact of different housing variables on schooling, health and happiness.
 We are also planning on using a propensity score matching (PSM) in order to evaluate certain treatment effects on subpopulations.
 
-**Proposed timeline**\
+**Proposed timeline**
 - Data preprocessing
 - Data visualization
 - PSM
@@ -34,6 +34,6 @@ Estelle : population matching, health/happiness data \
 Alan : propensity score establishment, education data \
 We will also regularly review each other's work and add ameliorations if needed.
 
-**Questions for TAs**
-
+**Questions for TAs**\
+-
 
