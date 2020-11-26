@@ -35,4 +35,4 @@ Alan : propensity score establishment, education data \
 We will also regularly review each other's work and add ameliorations if needed.
 
 **Questions for TAs**  
-***
+None
