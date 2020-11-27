@@ -23,16 +23,12 @@ The idea is first to do some visualization of the data for the variables of inte
 We are also planning on using a propensity score matching (PSM) in order to evaluate certain treatment effects on subpopulations.
 
 **Proposed timeline**
-- Data pre-processing
-- Data visualization
-- PSM
-- Regression models
-- Results analysis & presentation
+- Week 1 : Data pre-processing and data visualization
+- Week 2 : PSM and regression models
+- Week 3 : Results analysis & presentation
 
 **Organization within team**  \
-Estelle : population matching, health/happiness data \
-Alan : propensity score establishment, education data \
+Each of us will focus on a subject of interest that could be influenced by housing conditions. 
+Alan : education data, propensity score establishment \
+Estelle : health and happiness data, population matching \
 We will also regularly review each other's work and add ameliorations if needed.
-
-**Questions for TAs**  
-None
