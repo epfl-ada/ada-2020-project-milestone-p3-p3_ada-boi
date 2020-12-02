@@ -1,0 +1,272 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red127\green127\blue127;\red255\green250\blue131;
+\red255\green0\blue0;\red0\green0\blue0;\red255\green249\blue89;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c100000;\csgenericrgb\c49804\c49804\c49804;\csgenericrgb\c100000\c98039\c51373;
+\csgenericrgb\c100000\c0\c0;\csgenericrgb\c0\c0\c0;\csgenericrgb\c100000\c97647\c34902;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12960\viewh13180\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \ul \ulc0 Person identification\
+
+\b0 \ulnone HHID (hh id)\
+PERSID (id of person interviewed)\
+PERSTYPE (person type)\
+RESPID (respondent id)\
+UCPSID (CPS family id)\
+#UMOMID1 (PERSID of child\'92s mother)\
+SEX (gender)\
+SITE (site, only 13 detailed states)\
+STATE (state)\
+UREGION (region)\
+TYPEINT (extended interview type)\
+UAGE (age)
+\b \ul \
+
+\b0 \cf2 \ulnone \
+
+\b \ul Household identification
+\b0 \ulnone \
+HHID\
+#SCRNRSLT (selected hh w/adults only/children/EM only)\
+#SITE\
+#STATE\
+#UREGION
+\b \cf0 \ul \
+\
+\
+Education\
+
+\b0 \ulnone CCHGSC (changed school past 12 months)\
+-CSUEXP (suspended/expelled past 12 months)  yes=1, no=2
+\b \ul \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf3 \ulnone CGETBY (does schoolwork just to get by)\
+CHMWK (always does homework)\
+CINTSC (cares to do well in school)\
+CWRKSC (only does schoolwork when forced)\cf0 \
+UENG (child2 engagement in school state) -> CINTSC, CWRKSC, CGETBY, CHMWK\
+-UENGNEG (child2 negative school engagement) 
+\i -> CINTSC, CWRKSC, CGETBY, CHMWK yes(UENG=<10)=1, no=0\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 -UENGPOS (child2 positive school engagement) yes(UENG>=15) = 1, no(UENG<15) = 0\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf3 #N5CPROBC (child2 does poorly at school work)\cf0 \
+\
+
+\i CAGRAD (current grade)\
+CLGRAD (last grade completed)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \cb4 -CATTSC\cb1  (attended school past 12 months) yes=1, no=2\
+\cb4 CSKIPSC\cb1  (times skipped school past 12 months)\
+GSCHR (hours/week child1 on school)\
+\cf3 NLESSONS (child2 took lessons after school last year)\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0\b \cf0 \ul \
+\
+Household\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \ulnone - Family/caregiver\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 -GHMAD (care giver in home at least 18yo) yes=1, no=2\
+GSELFHR (hours per week child1 cared for self)\
+UMH2 (MKA\'92s mental health scale) -> NDEPRESA, NDEPRESB, NEPRESC, NEDRESD, NEDRESE
+\b \
+
+\b0 UMHIGDEG (MKA\'92s highest educational degree)\
+#URELATE (nb of relatives in hh) \cf5 -> keep only UHHCOUNT ?\cf0 \
+\cf2 CHLD0_5 (nb of children under 6 yo)\
+CHLD6_17 (nb of children btw 6 & 17 yo)\
+UHHCOUNT (nb of persons in hh)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i\b0 \cf0 FDISBL (does MKA & partner have health condition that limits work?)\
+FHLTHS (current health status of MKA & partner)
+\i0\b \ul \
+
+\i\b0 \ulnone GSCWK (MKA worked during school)\
+GSELFWK (MKA worked during child1\'92s self care)\
+HPARMAR (child\'92s parents married when born)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf3 NDEPRESA (MKA v. nervous in past month)\
+NDEPRESB (MKA felt calm and peaceful in last month)\
+NDEPRESC (MKA felt downhearted in last month)\
+NDEPRESD (MKA was happy last month)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 UAGG (parent aggravation scale score) -> NPCINTA, NPCINTB, NPCINTC, NPCINTD\
+UAGGNEG (negative parent aggravation)\
+UAGGPOS (positive parent aggravation)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \cb4 UFAMSTR\cb1  (living arrangements of children (lives w/ parents / blended family / adoptive parents / step parents))\
+UMH2NEG (negative MKA mental health)\
+\
+- 
+\i0\b Income\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 U_SOCPOV (social family income as % of poverty)\
+\cf2 QSC5 (hh total income before taxes)\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf0 \
+UINCRPOV (CPS family income as % of poverty) -> what\'92s CPS family vs social family ?\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0\b \cf0 \ul \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \ulnone - Housing\ul \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf2 \ulnone MNBEDRMS (nb of bedrooms in the house)\
+MOWNRENT (own or rent)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf2 \
+
+\i0\b \cf6 - Health insurance\cf0 \ul \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i\b0 \cf0 \ulnone ECCNHI (any time w/o health insurance in the past 12 months)\
+ECCHNHIM (how many months w/o health insurance in the past 12 months)\
+UANYMO (months of any insurance coverage) -> E1-E24, E37-E43\
+UCURNINS (currently uninsured) -> E22\
+UNINSMO (months of uninsurance)
+\i0\b \ul \
+\
+\
+Health\ulnone \
+- mental :\
+
+\b0 \cf3 #N4PROBB (child2 has been nervous or tense)\
+#N5CPROBA (child2 has trouble sleeping)\cf0 \
+\cf3 #N5CPROBC (child2 does poorly at school work) -> also in Education ?\cf0 \
+\cf3 #NCPROBA (child doesn\'92t get along w/ other kids)\
+#NCPROBB (child2 can\'92t concentrate for long)\
+#NCPROBC (child2 has been sad or depressed)\cf0 \
+UBPIA (child2 6-11 behavioral pos index score ) -> N4, N5\
+-UBPIAPOS (positive child2 behavior)\
+-UBPIANEG (negative child2 behavior) -> N4, N5\
+UBPIB (child2 12-17 behavioral pos index score) -> N3, N5\
+-UBPIBNEG (negative child2 behavior) -> N3, N5\
+-UBPIBPOS (positive child2 behavior)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i\b0 \cf0 FMENT (nb of mental health visits last year)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf3 N4PROBA (child2 feels worthless or inferior)\
+N5CPROBB (child2 lies or cheats)\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0\b \cf0 \
+- physical :\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 -BDISBL (health condition that limits activity) 1/2\
+BHLTHN (current health status)\
+FDOCT (nb of doctor visits last year)\
+-FWHMED (postponed medical care last year) 1/2\
+FWHYMED (postponed medical care reason)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i\b0 \cf0 \cb4 FDENT\cb1  (nb dental visits last year)\
+FDEXA (if child has visited dentist, was it for a general dental exam, check-up or cleaning ?)\
+FDEXAM (if child has visited dentist, nb of gen dental exam etc)
+\i0\b \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i\b0 \cf0 FPLACE (have usual place for health care)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \cb4 FWELLV\cb1  (nb of well child doctor visits last year)\
+FWHDEN (postponed dental last year)\
+FWHDRG (postponed drugs last year)\
+FWHYDEN (postponed dental care reason)\
+FWHYDRG (postponed prescription drugs reason)\
+\cb4 UCNGHL\cb1  (fair/poor health status) -> item B3\
+USATMED (satisfied with quality of medical care)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 - extrascolar activities / well-being\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf3 NOUTING (times in past month took child1 out)\cf0 \
+\cf3 -NSPORTS (child2 on sports team last year) 1/2
+\b \cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i\b0 \cf3 NCLUBA (child2 participated in clubs last year)\
+NCLUBB (child2 participated in clubs last year)\cf0 \
+\cb4 -UOUTNEG\cb1  (negative outings for children) -> NOUTINGS\
+\cb4 -UOUTPOS\cb1  (positive outings for children) -> NOUTINGS
+\i0\b \
+
+\i\b0 \cb4 UACT\cb1  (extent of child\'92s extracurricular activities) -> NSPORTS, NLESSONS, NCLUBA, NCLUBB\
+\cb4 -UACTNEG\cb1  (child is not involved in any activities)\
+\cb4 -UACTPOS\cb1  (child is involved in at least one activity)\
+UREADNEG (child is read to 2 or fewer days/week)\
+UREADPOS (child is read to 6 or more days/week)
+\i0\b \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \ul Programs\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \ulnone - child \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 #GCENHR (hours per week child1 in group care center) \cf5 -> keep only binary variable of whether child attends, GCENTR ?\cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf0 \cb4 -CSPECED\cb1  (child receive special education services) -> Education 1/2\
+\cb4 -GCENTR\cb1  (child1 attend group care center) -> Child care (e.g. before/after school) 1/2
+\i0\b \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i\b0 \cf0 \cb7 -GHEADS\cb1  (child1 attend Head Start (\cf8 \expnd0\expndtw0\kerning0
+federally-funded program to help young children from low-income families get ready for kindergarten and grade school)\cf0 \kerning1\expnd0\expndtw0 ) -> Education 1/2\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \cb4 -KAPPMED\cb1  (applied for Mediacaid/CHIP for child) -> Health 1/2\
+\cb4 -SSHELP\cb1  (social services arrange care - no parent in hh) -> Social services 1/2\
+UFOSKIN (type of foster-/kin-care child)\
+UNUMARNG (total nb of child care arrangements)\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0\b \cf0 - household\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf2 -MPUBHOUS (house in public housing project) 1/2
+\i \
+\
+#MCERVOUC (agency give voucher to help pay rent) \
+#MLESSRNT (government pays rent) \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0\b \cf0 \
+Check
+\b0 \
+ENCOVMO (nb months covered by insurance last year /!\\ for ppl currently uninsured) \cf5 -> don\'92t think we should keep that\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 RELEASGR (release group nb) -> just to know it exists, maybe need it for economic clustering \
+\
+\
+}
