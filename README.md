@@ -8,9 +8,11 @@ From this dataset we can extract a number of interesting variables for housing c
 
 
 **Research questions**
-1. Which life outcomes do general housing conditions influence the most (education, happiness or health)? 
-2. Is there a correlation between precarious housing and health (both physical and mental) status?
-3. In what ways do living conditions affect children scholarship (if they do) ? Which age group is most impacted ?
+1. Which living conditions affect which life outcomes (education, health or happiness) the most?
+
+2. What is the effect of precarious housing on health (both physical and mental) and school involvement for children?
+
+3. Following-up on school involvement: which age group (children or adolescents) is most impacted ?
 
 **Proposed dataset**\
 Urban Institute, and Child Trends. National Survey of America’s Families (NSAF), 2002. Inter-university Consortium for Political and Social Research [distributor], 2007-10-03. https://doi.org/10.3886/ICPSR04582.v1 \
@@ -18,7 +20,7 @@ We chose the 2002 census as it represents a similar timeframe to the Piso Firme 
 We will restrict our study to the Focal Child Data and the Household Data.
 
 **Methods**\
-We will divide the children in three age groups in order to study which group is influenced the most for different parameters. Each person of interest will be linked to his/her household.\
+We will divide the children into three age groups in order to study which group is influenced the most for different parameters. Each person of interest will be linked to his/her household.\
 The idea is first to do some visualization of the data for the variables of interest. Then, we will perform linear regression in order to study in more details the impact of different housing variables on schooling, health and happiness.
 We are also planning on using a propensity score matching (PSM) in order to evaluate certain treatment effects on subpopulations.
 
