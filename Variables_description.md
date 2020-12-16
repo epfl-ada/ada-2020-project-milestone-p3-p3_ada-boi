@@ -3,6 +3,7 @@
 # Dataset 1: household data
 `HHID`: Household ID number  
 `CHLD0_5`: Number of children ages 0-5 in household   
+_`bool0_5`_: Does the household have at least one child aged 0-5? **1** if `CHLD0_5` > 0, **0** if `CHLD0_5` = 0   
 `CHLD6_17`: Number of children ages 6-17 in household  
 `UHHCOUNT`: Total number of people in household  
 `MNBEDRMS`: Number of bedrooms  
