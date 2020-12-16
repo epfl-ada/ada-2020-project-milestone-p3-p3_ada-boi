@@ -12,7 +12,7 @@ From this dataset we can extract a number of interesting variables for housing c
 
 2. What is the effect of precarious housing on health (both physical and mental) and school involvement for children?
 
-3. Following-up on school involvement: which age group (children or adolescents) is most impacted ?
+3. Are there differences in the effects of precarity between both age groups considered in point **2.** (children[6-11] or adolescents[12-17])? If so, for which outcomes (educational, health or happiness) ?
 
 **Proposed dataset**\
 Urban Institute, and Child Trends. National Survey of America’s Families (NSAF), 2002. Inter-university Consortium for Political and Social Research [distributor], 2007-10-03. https://doi.org/10.3886/ICPSR04582.v1 \
