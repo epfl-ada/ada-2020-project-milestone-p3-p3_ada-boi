@@ -22,7 +22,7 @@ _`OVERCROWDING`_=`UHHCOUNT`/`MNBEDRMS`: People per bedroom, related to overcrowd
 `STATE`: US state  
 `UREGION`: US region; Northeast, Midwest, South, West 
 ### 2.2) Education 
-`UENG`: Engagement at school (takes into account the general interest given to school, homework completion, etc...), score $\in$ **[4-16]**, with **4** the lowest and **16** the highest engagements  
+`UENG`: Engagement at school (takes into account the general interest given to school, homework completion, etc...), score \in **[4-16]**, with **4** the lowest and **16** the highest engagements  
 _`UENGn`_: Normalized engagement at school, score $\in$ **[0-1]**  
 `UENGNEG`: Index of negative engagement at school, **0** if `UENG`>10, **1** if `UENG`<=10  
 `UENGPOS`: Index of positive engagement at school, **0** if `UENG`<15, **1** if `UENG`>=15   
