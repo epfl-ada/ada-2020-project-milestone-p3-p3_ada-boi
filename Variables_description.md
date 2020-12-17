@@ -22,7 +22,7 @@ _`OVERCROWDING`_=`UHHCOUNT`/`MNBEDRMS`: People per bedroom, related to overcrowd
 `STATE`: US state  
 `UREGION`: US region; Northeast, Midwest, South, West 
 ### 2.2) Education 
-`UENG`: Engagement at school, score $\in$ **[4-16]**, with **4** the lowest and **16** the highest engagements  
+`UENG`: Engagement at school (takes into account the general interest given to school, homework completion, etc...), score $\in$ **[4-16]**, with **4** the lowest and **16** the highest engagements  
 _`UENGn`_: Normalized engagement at school, score $\in$ **[0-1]**  
 `UENGNEG`: Index of negative engagement at school, **0** if `UENG`>10, **1** if `UENG`<=10  
 `UENGPOS`: Index of positive engagement at school, **0** if `UENG`<15, **1** if `UENG`>=15   
@@ -38,7 +38,8 @@ _`UAGGn`_: Normalized aggravation score, score $\in$ **[0-1]**
 `UHINS4`: Insurance provider, **1**=Employer, **2**=Medicaid/State/CHIP, **3**=Other, **4**=Uninsured  
 ### 2.5) Physical health variables
 `BDISBL`: Child has a disability that limits activity, **0**=no, **1**=yes  
-`BHLTHN`: Child's current health status, a higher score means poor health status, **1**=excellent, **2**=very good, **3**=good, **4**=fair, **5**=poor  
+`BHLTHN`: Child's current health status, a higher score means poor health status, **1**=excellent, **2**=very good, **3**=good, **4**=fair, **5**=poor 
+
 _`BHLTHNn`_: Normalized child health status, $\in$ **[0-1]**, where **0** means very healthy and **1** vers unhealthy  
 ### 2.6) Mental health variables
 `UBPIA`: Age 6-11 Behavioral Problems Index score, $\in$ **[6-18]**, A higher score indicates fewer behavioral problems    
