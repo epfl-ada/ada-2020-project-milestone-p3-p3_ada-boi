@@ -2,9 +2,9 @@
 #### NB the variables in _`italics`_ were implemented by us from given variables.  
 # Dataset 1: household data
 `HHID`: Household ID number  
-`CHLD0_5`: Number of children ages 0-5 in household   
+`CHLD0_5`: Number of children aged 0-5 in household   
 _`bool0_5`_: Does the household have at least one child aged 0-5? **1** if `CHLD0_5` > 0, **0** if `CHLD0_5` = 0   
-`CHLD6_17`: Number of children ages 6-17 in household  
+`CHLD6_17`: Number of children aged 6-17 in household  
 `UHHCOUNT`: Total number of people in household  
 `MNBEDRMS`: Number of bedrooms  
 _`OVERCROWDING`_=`UHHCOUNT`/`MNBEDRMS`: People per bedroom, related to overcrowding of the household.   
@@ -22,15 +22,15 @@ _`OVERCROWDING`_=`UHHCOUNT`/`MNBEDRMS`: People per bedroom, related to overcrowd
 `STATE`: US state  
 `UREGION`: US region; Northeast, Midwest, South, West 
 ### 2.2) Education 
-`UENG`: Engagement at school (takes into account the general interest given to school, homework completion, etc...), score in **[4-16]**, with **4** the lowest and **16** the highest engagements  
-_`UENGn`_: Normalized engagement at school, score in **[0-1]**  
-`UENGNEG`: Index of negative engagement at school, **0** if `UENG`>10, **1** if `UENG`<=10  
-`UENGPOS`: Index of positive engagement at school, **0** if `UENG`<15, **1** if `UENG`>=15   
+`UENG`: Engagement in school (takes into account the general interest given to school, homework completion, etc...), score in **[4-16]**, with **4** the lowest and **16** the highest engagements  
+_`UENGn`_: Normalized engagement in school, score in **[0-1]**  
+`UENGNEG`: Index of negative engagement in school, **0** if `UENG`>10, **1** if `UENG`<=10  
+`UENGPOS`: Index of positive engagement in school, **0** if `UENG`<15, **1** if `UENG`>=15   
 `NLESSONS`: Did the child take lessons after school last year? **0**=no, **1**=yes  
 `CSPECED`: Does the child receive special education services? **0**=no, **1**=yes  
 ### 2.3) Family variables
 `UFAMSTR`: Living arrangement of child, **1**=lives with no parents, **2**=lives with single parent, **3**=lives in a blended (step) family, **4**=lives with two biological/adoptive parents  
-`UMHIGDEG`: Parent's highest educationnal degree, in **[1-6]**, with **1**=GED, **2**=high school diploma, **3**=technical certificate, **4**=associate degree, **5**=bachelors degree, **6**=graduate or professional degree   
+`UMHIGDEG`: Parent's highest educational degree, in **[1-6]**, with **1**=GED, **2**=high school diploma, **3**=technical certificate, **4**=associate degree, **5**=bachelors degree, **6**=graduate or professional degree   
 `UAGG`: Parent aggravation score (how difficult is it to care for the child), in **[0-12]**, with **0** being really easy and **12** really difficult  
 _`UAGGn`_: Normalized aggravation score, score in **[0-1]**   
 ### 2.4) Income/security variables
@@ -39,9 +39,9 @@ _`UAGGn`_: Normalized aggravation score, score in **[0-1]**
 ### 2.5) Physical health variables
 `BDISBL`: Child has a disability that limits activity, **0**=no, **1**=yes  
 `BHLTHN`: Child's current health status, a higher score means poor health status, **1**=excellent, **2**=very good, **3**=good, **4**=fair, **5**=poor  
-_`BHLTHNn`_: Normalized child health status, in **[0-1]**, where **0** means very healthy and **1** vers unhealthy  
+_`BHLTHNn`_: Normalized child health status, in **[0-1]**, where **0** means very healthy and **1** very unhealthy  
 ### 2.6) Mental health variables
-`UBPIA`: Age 6-11 Behavioral Problems Index score, in **[6-18]**, A higher score indicates fewer behavioral problems    
+`UBPIA`: Age 6-11 Behavioral Problems Index score, in **[6-18]**, a higher score indicates fewer behavioral problems    
 _`UBPIAn`_: Normalized age 6-11 Behavioral Problems Index score, in **[0-1]**  
 `UBPIANEG`: Negative behavior 6-11 years, **0** if `UBPIA`>12, **1** if `UBPIA`<=12  
 `UBPIAPOS`: Positive behavior 6-11 years, **0** if `UBPIA`<18, **1** if `UBPIA`=18   
