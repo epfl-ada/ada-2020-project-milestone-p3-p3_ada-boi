@@ -30,7 +30,6 @@ We are also planning on using a propensity score matching (PSM) in order to eval
 - Week 3 : Results analysis & presentation
 
 **Organization within team**  \
-Each of us will focus on a subject of interest that could be influenced by housing conditions. \
-Alan : education data, propensity score establishment \
-Estelle : health and happiness data, population matching \
-We will also regularly review each other's work and add ameliorations if needed.
+The contributions during these 3 weeks were: \
+Alan: data preprocessing, PSM, differences in age groups, notebook presentation  \
+Estelle: linear regressions, living index for PS, ATE, datastory
